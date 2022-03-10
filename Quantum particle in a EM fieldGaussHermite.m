@@ -1,6 +1,6 @@
 function [out] = GaussHermite(n)
-% Ce code n'est pas le nôtre, il a été écrit par Geert Van Damme.
-% Il permet de trouver les poids et les abscisses apparaissant dans la méthodes de 
+% Ce code n'est pas le nÃ´tre, il a Ã©tÃ© Ã©crit par Geert Van Damme.
+% Il permet de trouver les poids et les abscisses apparaissant dans la mÃ©thodes de 
 % quadrature de gauss
 
 % This function determines the abscisas (x) and weights (w) for the
