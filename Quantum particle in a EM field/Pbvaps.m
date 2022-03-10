@@ -1,7 +1,7 @@
 function [out] = Pbvaps(N,a,V0)
-% On résoud le problème au valeur propre
+% On rÃ©soud le problÃ¨me au valeur propre
 
-% On créé la matrice F
+% On crÃ©Ã© la matrice F
 F = zeros(N+1,N+1);
 for i=1:N+1
     
@@ -16,7 +16,7 @@ for i=1:N+1
     end
 end
 
-% On créé la matrice U
+% On crÃ©Ã© la matrice U
 
 U = zeros(N+1,N+1);
 
@@ -32,14 +32,14 @@ for i=1:N+1
     end
 end
 
-[V,D] = eig(-1/2*F+U); % On résoud le système au valeurs propres
+[V,D] = eig(-1/2*F+U); % On rÃ©soud le systÃ¨me au valeurs propres
 
 E = zeros(N+1,1);
 for i=1:N+1
     E(i,1)=D(i,i);
 end
-E = sort(E); % On ordonne les énergies de façon croissante
+E = sort(E); % On ordonne les Ã©nergies de faÃ§on croissante
 out = [V,E];
 
-%T = V*transpose(V); % On vérifie que les vecteurs sont orthogonaux
+%T = V*transpose(V); % On vÃ©rifie que les vecteurs sont orthogonaux
 end
