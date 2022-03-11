@@ -2,7 +2,7 @@
 
 Here, we showcase the effectiveness of spectral methods on two different problems. More details can be found in the report.
 
-Note that this project was completed in French as part of the course LPHYS2371 Simulation Numérique at UCLouvain.
+Note that this project was completed in French as part of the course LPHYS2371 Simulation Numérique at UCLouvain in 2017.
 
 
 # Spectral methods comparison
