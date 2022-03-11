@@ -14,4 +14,4 @@ The 4 methods are implemented in the files named after them. The main file is Me
 # Quantum particle in a EM field
 The second problem is focused on solving a more complex and more interesting differential equation: the Schrodinger equation of a 1D particle in a potential well excited by an external time-varying electromagnetic field. This non-trivial problem does not admit an analytical solution, and so numerical methods are required. Again, we use a spectral approach.
 
-Interestingly, for some parameter values, we were able to observe the Rabi oscillations phenomenon.
+Interestingly, for some parameter values, we observe the Rabi oscillations phenomenon.
