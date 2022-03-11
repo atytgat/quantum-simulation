@@ -1,8 +1,8 @@
 # Solving differential equations with spectral methods
 
-Here, we showcase the effectiveness of spectral methods on two different problems. 
+Here, we showcase the effectiveness of spectral methods on two different problems. More details can be found in the report.
 
-Note that all comments are written in French.
+Note that this project was completed in French.
 
 
 # Spectral methods comparison
